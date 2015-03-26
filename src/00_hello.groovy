@@ -36,6 +36,21 @@ println()
 int parsedValue = Integer.parseInt("1011", 2)
 println "parsedValue = $parsedValue"
 
+// Создание и вызов своих функций
+
+// Вычисление n-ого числа Фибоначчи
+def fib(long n) {
+    n < 2 ? 1 : fib(n - 1) + fib(n - 2)
+}
+
+// Вычисление факториала
+def fact(long N) {
+    N <= 1 ? N : N * fact(N - 1)
+}
+
+def v = fact(3)
+println "fact(3) = $v"
+
 // Используем класс из вложенного пакета
 import package1.MyClass
 
