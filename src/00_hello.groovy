@@ -1,5 +1,14 @@
 println("Hello world!")
 
+def name = 'World'; println "Hello $name!"
+
+for (i = 2; i < 10; ++i)
+    println("i = " + i)
+
+i = "String"
+i = i.replaceAll("Str", "TTT")
+println(i)
+
 // Переменные a и b целого типа
 a = 1; b = 3
 c = a + b
