@@ -1,7 +1,7 @@
 package package1;
 
 /**
- * Java-класс для вызова из Groovy
+ * Java-РєР»Р°СЃСЃ РґР»СЏ РІС‹Р·РѕРІР° РёР· Groovy
  */
 public class JavaClass {
     public int intValue;

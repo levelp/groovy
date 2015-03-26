@@ -1,7 +1,7 @@
 import package1.JavaClass
 
 /**
- * Использование Java класса из Groovy
+ * РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ Java РєР»Р°СЃСЃР° РёР· Groovy
  */
 JavaClass javaClass = new JavaClass()
 javaClass.intValue = 2
