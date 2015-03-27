@@ -9,7 +9,9 @@ for (int i = 0; i < b.size(); i++) {
 // java.util.ArrayList
 println(b.getClass().getCanonicalName())
 
+// Добавляем элемент в конец массива
 b.add("Элемент в конец")
+// ..и другим способом..
 b += "Ещё один элемент"
 println(b)
 
