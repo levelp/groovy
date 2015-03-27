@@ -1,7 +1,7 @@
 package embedded
 
 /**
- * Запуск другого скрипта
+ * Запуск одного Groovy скрипта (ReloadingTest.groovy) из другого Groovy скрипта
  */
 
 def binding = new Binding()
