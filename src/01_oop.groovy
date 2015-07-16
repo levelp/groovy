@@ -65,3 +65,6 @@ assertEquals(a.x - b.x, sub.x)
 assertEquals(a.y - b.y, sub.y)
 
 assertEquals(new Point(a.x - b.x, a.y - b.y), a - b)
+
+List<Double> doubleList = new ArrayList<>();
+doubleList.add(0.1)

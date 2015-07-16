@@ -106,9 +106,13 @@ def v = fact(3)
 println "fact(3) = $v"
 
 // Используем класс из вложенного пакета
+import package1.JavaClass
 import package1.MyClass
 
 MyClass myClass = new MyClass()
 myClass.i = 2
 myClass.s = "String"
 myClass.show()
+
+JavaClass javaClass = new JavaClass();
+javaClass.show()
