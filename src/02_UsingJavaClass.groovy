@@ -7,3 +7,5 @@ JavaClass javaClass = new JavaClass()
 javaClass.intValue = 2
 javaClass.stringValue = "String"
 javaClass.show()
+
+println("value = $javaClass.intValue")

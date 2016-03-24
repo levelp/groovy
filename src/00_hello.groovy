@@ -1,7 +1,10 @@
 println("Hello world!")
 
+
+// Объявляем переменную и её используем
 def name = 'World'; println "Hello $name!"
 
+// Циклы
 for (i = 2; i < 10; ++i)
     println("i = " + i)
 
@@ -30,14 +33,14 @@ for (i = 0; i < 10; i++) {
     println "i = $i"
 }
 
-// iterate over a range
+// Цикл по интервалу
 def x = 0
 for (i in 0..9) {
     x += i
 }
 assert x == 45
 
-// iterate over a list
+// Цикл по списку
 x = 0
 for (i in [0, 1, 2, 3, 4]) {
     x += i
